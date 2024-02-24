@@ -1,0 +1,49 @@
+body{
+  background-color:  rgb(199, 250, 231);
+}
+.d-flex{
+  justify-content: space-between;
+  background-color: rgb(59, 117, 95);
+  color: #fff;
+  padding: 10px;
+}
+.btn{
+  background-color:rgb(59, 117, 95);
+  padding: 10px 40px;
+  color: #fff;
+}
+/* Form.css */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-content {
+  border: 15px solid rgb(59, 117, 95);
+  width: 400px;
+  padding: 20px;
+}
+
+.form-content h2 {
+  text-align: center;
+}
+
+.form-content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-content form input,
+.form-content form button {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .form-content {
+    width: 80%;
+  }
+}
